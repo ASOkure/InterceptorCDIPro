@@ -1,3 +1,4 @@
+package com.aksam.javaeeapp;
 
 public class Book {
 
@@ -14,12 +15,12 @@ public class Book {
 	
 	
 	
-	public Book(String title, Float price, String description, String number) {
-		super();
+	public Book(String title, Float price, String description) {
+	
 		this.title = title;
 		this.price = price;
 		this.description = description;
-		this.number = number;
+		
 	}
 
 
@@ -33,9 +34,11 @@ public class Book {
 	public String getDescription() {
 		return description;
 	}
+	
 	public String getNumber() {
-		return number;
-	}
+	    return number;
+	  }
+	
 	public void setTitle(String title) {
 		this.title = title;
 	}
@@ -45,9 +48,21 @@ public class Book {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	public void setNumber(String number) {
-		this.number = number;
+	
+	  public void setNumber(String number) {
+	    this.number = number;
+	  }
+	
+	 @Override
+	  public String toString() {
+	    final StringBuilder sb = new StringBuilder();
+	    sb.append("Book{");
+	    sb.append("title='").append(title).append('\'');
+	    sb.append(", price=").append(price);
+	    sb.append(", description='").append(description).append('\'');
+	    sb.append(", number='").append(number).append('\'');
+	     sb.append('}');
+	    return sb.toString();
+	  }
 	}
 	
-	
-}

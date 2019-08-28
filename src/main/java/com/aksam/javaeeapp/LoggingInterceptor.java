@@ -1,3 +1,4 @@
+package com.aksam.javaeeapp;
 import java.util.logging.Logger;
 
 import javax.inject.Inject;

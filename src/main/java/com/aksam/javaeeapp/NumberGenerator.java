@@ -1,3 +1,4 @@
+package com.aksam.javaeeapp;
 
 public interface NumberGenerator {
 

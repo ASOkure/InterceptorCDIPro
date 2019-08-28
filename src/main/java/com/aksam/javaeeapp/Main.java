@@ -1,3 +1,4 @@
+package com.aksam.javaeeapp;
 import org.jboss.weld.environment.se.Weld;
 import org.jboss.weld.environment.se.WeldContainer;
 

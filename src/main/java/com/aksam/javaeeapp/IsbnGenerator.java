@@ -1,8 +1,9 @@
+package com.aksam.javaeeapp;
 import java.util.Random;
+import java.util.logging.Logger;
 
 import javax.inject.Inject;
 
-import org.jboss.logging.Logger;
 
 @ThirteenDigits
 public class IsbnGenerator  implements NumberGenerator {

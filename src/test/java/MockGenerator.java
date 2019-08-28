@@ -1,3 +1,6 @@
+import javax.enterprise.inject.Alternative;
+
+import com.aksam.javaeeapp.Loggable;
 
 @Alternative
 @ThirteenDigits
